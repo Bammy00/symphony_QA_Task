@@ -1,0 +1,22 @@
+{
+  "name": "symphony_qa_task",
+  "version": "1.0.0",
+  "description": "QA Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bammy00/symphony_QA_Task.git"
+  },
+  "author": "Eleyinmi Ayobami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bammy00/symphony_QA_Task/issues"
+  },
+  "homepage": "https://github.com/Bammy00/symphony_QA_Task#readme",
+  "devDependencies": {
+    "cypress": "^12.10.0"
+  }
+}
