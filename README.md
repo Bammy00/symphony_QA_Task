@@ -24,8 +24,6 @@ This will run the API test, which calls the public APIs endpoint and verifies th
 
 Running the Automated UI Test
 To run the automated UI test, run the following command in the terminal:
-
-
 npm run test:ui
 This will run the UI test, which visits the "https://www.saucedemo.com/" website, logs in, sorts the items by Name (A -> Z) and Name (Z -> A), and verifies the sorting.
 

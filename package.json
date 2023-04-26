@@ -4,7 +4,10 @@
   "description": "QA Task",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:api": "cypress run --spec cypress/e2e/API.cy.js",
+    "test:ui": "cypress run --spec cypress/e2e/UItests.cy.js"
+
+    
   },
   "repository": {
     "type": "git",
@@ -20,3 +23,4 @@
     "cypress": "^12.10.0"
   }
 }
+
